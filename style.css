@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+div.header{
+  background: url(Civic_Towers.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 15px;
+  margin-bottom: 0;
+  
+}
+
+
+#title{
+  
+  width: 300px;
+  margin: 150px auto 0 auto;
+  padding: 7px 5px;
+  color: #fff;
+  background-color:#1D3557;
+  border-radius: 5px;
+  font-size: 35px;
+  
+  
+}
+#sub-title{
+  color:#fff;
+  width: 400px;
+  margin:10px auto;
+  background: #457B9D;
+  border-radius: 5px;
+  padding: 3px 3px;
+  font-size: 25px;
+  
+
+}
+.lag-img{
+  width:100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.activities-section{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.sub-section{
+  flex: 33.33%;
+}
+#main{
+  background: #F1FAEE;
+ margin-top: 0;
+ padding: 20px 20px;
+}
+#section-title{
+  padding: 10px 0;
+
+}
+.about-me{
+  border: 2px solid black;
+  width:500px;
+  height: 250px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items:center;
+  margin: 30px auto;
+  background: #A8DADC;
+
+}
+.about-me-img{
+  width:200px;
+  height: 200px;
+  padding: 10px 10px;
+  border-radius:5%;
+}
+.lag-img:hover{
+  opacity: 0.5;
+  transition-duration: 1s;
+}
